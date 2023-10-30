@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Takealot.com:Online Shopping</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/ecb918b976.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: '#f4f4f4',
+              primary: '#0B79BF',
+              darkGray: '#4D4D4F',
+            },
+          },
+        },
+      }
+    </script>
+  </head>
+  <body class="bg-gray-100">
+    <header class="bg-primary">
+      <div class="bg-white flex justify-between items-center px-48">
+        <div class="py-3 flex items-center">
+          <img
+            class="mr-8"
+            height="37px"
+            width="180px"
+            src="https://shopfront.takealot.com/744a5a17d59bf9602ce11d98a220f68e69f2696c/static/media/src/images/logo.svg-f6ccb489b85bbddf97d6.svg"
+            alt=""
+          />
+          <ul class="flex space-x-4">
+            <li><a href="help.html">Help Centre</a></li>
+            <div class="border-r"></div>
+            <li><a href="sell.html">Sell on Takealot</a></li>
+          </ul>
+        </div>
+        <ul class="flex space-x-4 items-center">
+          <li><a href="">Login</a></li>
+          <li><a href="">Register</a></li>
+          <div class="border-r"></div>
+          <li><a href="">Orders</a></li>
+          <div class="border-r"></div>
+          <div class="dropdown inline-block relative">
+            <a href="#" class="text-gray-700 py-2 inline-flex items-center">
+              <span class="mr-1">My Account</span>
+              <svg
+                class="fill-current h-4 w-4"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                />
+              </svg>
+            </a>
+            <ul class="dropdown-menu shadow absolute hidden text-gray-700 pt-1">
+              <li class="">
+                <a
+                  class="rounded-t bg-white py-2 px-4 block whitespace-no-wrap"
+                  href="#"
+                  >My Account</a
+                >
+              </li>
+              <li class="">
+                <a
+                  class="bg-white  py-2 px-4 block whitespace-no-wrap"
+                  href="#"
+                  >Track Order</a
+                >
+              </li>
+              <li class="">
+                <a
+                  class="rounded-b bg-white  py-2 px-4 block whitespace-no-wrap"
+                  href="#"
+                  >Returns</a
+                >
+              </li>
+            </ul>
+          </div>
+        </ul>
+      </div>
+      <div class="bg-primary container mx-auto">bottom</div>
+    </header>
+  </body>
+</html>
