@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wish List - Takealot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/ecb918b976.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.cdnfonts.com/css/helvetica-neue-55"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: "#f4f4f4",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-background text-gray-800 overscroll-none">
+    <!--HEADER ------------------------------------------------------------------------------------------------------------------------------------>
+    <div class="container mx-auto py-4">
+      <div class="space-x-2 text-sm text-sky-700">
+        <a href="">My Account</a>
+        <span>/</span>
+        <a href="">My Lists</a>
+        <span>/</span>
+        <a class="text-gray-700">Wish List</a>
+      </div>
+      <div class="flex">
+        <div
+          class="bg-white h-[150px] w-[360px] text-gray-700 mb-10 mt-4 rounded-md"
+        >
+          <h1 class="p-2 text-lg font-bold">My Lists</h1>
+          <hr />
+          <div
+            class="text-sm bg-sky-50 py-1 border-l-4 border-sky-800 w-[330px] cursor-pointer mt-4 rounded-r-full"
+          >
+            <a class="pl-4" href="">Wish List</a>
+          </div>
+          <div
+            class="text-sm hover:bg-gray-100 py-1 w-[330px] cursor-pointer rounded-r-full my-1 text-sky-700"
+          >
+            <a href="">+ Create a List</a>
+          </div>
+        </div>
+        <div class="p-4 pt-8 flex-1">
+          <div class="flex items-center">
+            <div class="text-xl font-bold">Wish List</div>
+            <p
+              class="text-[10px] font-extrabold mx-4 py-[4px] bg-gray-300 rounded-full px-4"
+            >
+              DEFAULT
+            </p>
+          </div>
+          <div class="flex h-[61px] bg-yellow-100 items-center mt-4 shadow-md">
+            <div
+              class="flex items-center bg-yellow-400 w-14 rounded-r-full mr-2 h-full"
+            >
+              <i class="fa-solid items-center fa-lock text-2xl mx-auto"></i>
+            </div>
+            <p class="text-sm">
+              You are viewing your guest list. Log in for full access to your
+              lists.
+              <span class="text-sky-700 cursor-pointer hover:underline"
+                >Login</span
+              >
+            </p>
+          </div>
+          <div
+            class="bg-white flex flex-col pb-4 justify-center items-center mt-4 shadow-md"
+          >
+            <div class="py-4 rounded-full">
+              <img
+                class="rounded-full border-8 border-white shadow-md"
+                src="https://shopfront.takealot.com/13eff8fb49302e59b7e8b9c7a03563835e301383/static/media/src/images/wishlist/wishlist-empty.svg-38f93f7194b84a6a1f59.svg"
+                alt=""
+              />
+            </div>
+            <div class="text-center flex flex-col space-y-4">
+              <h2 class="font-bold text-[18px]">This list is empty!</h2>
+              <p class="my-4">Go on, start planning what gifts you'd like!</p>
+            </div>
+            <a class="bg-sky-700 text-white px-8 py-3 mt-4 text-sm" href="#"
+              >Continue Shopping</a
+            >
+          </div>
+          <div class="my-5 w-full">
+            <img
+              class="bg-cover"
+              src="https://tpc.googlesyndication.com/simgad/9334445511005059859?"
+            />
+          </div>
+
+          <div class="">
+            <h2 class="font-bold mb-4">Trending Now</h2>
+            <div class="flex space-x-6">
+              <div class="w-[208px] bg-white h-[346px] p-3 shadow-md">
+                <img
+                  class="w-[132px] h-[132px] mx-auto"
+                  src="https://media.takealot.com/covers_tsins/55572768/6009647761590-1-xlpreview.jpg"
+                  alt=""
+                />
+                <h4 class="text-[14px] mt-4 mb-7">Catrice Mystery Gift Pack - 5 Products</h4>
+
+                <div>
+                  <h3 class="font-semibold text-sm mb-2">R350</h3>
+                  <div class="flex flex-col space-y-2">
+                    <div class="flex items-center space-x-2">
+                      <i class="fa-solid fa-star text-xs text-yellow-500"></i>
+                      <p class="text-xs">4.3 (310)</p>
+                    </div>
+                    <a class="border px-8 py-2 border-green-700 text-green-700 text-sm hover:text-white hover:bg-green-700" href="">
+                      <span class="text-sm">+ <i class="fa-solid fa-cart-shopping mr-2 text-xs"></i></span>  
+                      Add to Cart       
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!--card2-->
+              <div class="w-[208px] bg-white h-[346px] p-3 shadow-md">
+                <img
+                  class="w-[132px] h-[132px] mx-auto"
+                  src="https://media.takealot.com/covers_images/d6b64c30057f43a6a8e12fbf62fda6dd/s-xlpreview.file"
+                  alt=""
+                />
+                <h4 class="text-[14px] mt-4 mb-7">Catrice Mystery Gift Pack - 5 Products</h4>
+
+                <div>
+                  <h3 class="font-semibold text-sm mb-2">R350</h3>
+                  <div class="flex flex-col space-y-2">
+                    <div class="flex items-center space-x-2">
+                      <i class="fa-solid fa-star text-xs text-yellow-500"></i>
+                      <p class="text-xs">4.3 (310)</p>
+                    </div>
+                    <a class="border px-8 py-2 border-green-700 text-green-700 text-sm hover:text-white hover:bg-green-700" href="">
+                      <span class="text-sm">+ <i class="fa-solid fa-cart-shopping mr-2 text-xs"></i></span>  
+                      Add to Cart       
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!--card3-->
+              <div class="w-[208px] bg-white h-[346px] p-3 shadow-md">
+                <img
+                  class="w-[132px] h-[132px] mx-auto"
+                  src="https://media.takealot.com/covers_images/310022b484e2485495debe28c7573fae/s-zoom.file"
+                  alt=""
+                />
+                <h4 class="text-[14px] mt-4 mb-7">Catrice Mystery Gift Pack - 5 Products</h4>
+
+                <div>
+                  <h3 class="font-semibold text-sm mb-2">R350</h3>
+                  <div class="flex flex-col space-y-2">
+                    <div class="flex items-center space-x-2">
+                      <i class="fa-solid fa-star text-xs text-yellow-500"></i>
+                      <p class="text-xs">4.3 (310)</p>
+                    </div>
+                    <a class="border px-8 py-2 border-green-700 text-green-700 text-sm hover:text-white hover:bg-green-700" href="">
+                      <span class="text-sm">+ <i class="fa-solid fa-cart-shopping mr-2 text-xs"></i></span>  
+                      Add to Cart       
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!--card4-->
+              <div class="w-[208px] bg-white h-[346px] p-3 shadow-md">
+                <img
+                  class="w-[132px] h-[132px] mx-auto"
+                  src="https://media.takealot.com/covers_tsins/39684814/39684814_1-zoom.jpg"
+                  alt=""
+                />
+                <h4 class="text-[14px] mt-4 mb-7">Catrice Mystery Gift Pack - 5 Products</h4>
+
+                <div>
+                  <h3 class="font-semibold text-sm mb-2">R350</h3>
+                  <div class="flex flex-col space-y-2">
+                    <div class="flex items-center space-x-2">
+                      <i class="fa-solid fa-star text-xs text-yellow-500"></i>
+                      <p class="text-xs">4.3 (310)</p>
+                    </div>
+                    <a class="border px-8 py-2 border-green-700 text-green-700 text-sm hover:text-white hover:bg-green-700" href="">
+                      <span class="text-sm">+ <i class="fa-solid fa-cart-shopping mr-2 text-xs"></i></span>  
+                      Add to Cart       
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!--card5-->
+              <div class="w-[208px] bg-white h-[346px] p-3 shadow-md">
+                <img
+                  class="w-[132px] h-[132px] mx-auto"
+                  src="https://media.takealot.com/covers_images/5126a8a10b6e4d1ebf30d7a1fb018467/s-zoom.file"
+                  alt=""
+                />
+                <h4 class="text-[14px] mt-4 mb-7">Catrice Mystery Gift Pack - 5 Products</h4>
+
+                <div>
+                  <h3 class="font-semibold text-sm mb-2">R350</h3>
+                  <div class="flex flex-col space-y-2">
+                    <div class="flex items-center space-x-2">
+                      <i class="fa-solid fa-star text-xs text-yellow-500"></i>
+                      <p class="text-xs">4.3 (310)</p>
+                    </div>
+                    <a class="border px-8 py-2 border-green-700 text-green-700 text-sm hover:text-white hover:bg-green-700" href="">
+                      <span class="text-sm">+ <i class="fa-solid fa-cart-shopping mr-2 text-xs"></i></span>  
+                      Add to Cart       
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer --------------------------------------------------------------->
+    <footer class="pt-[100px]">
+      <div class="block bg-[#fff] h-[60vh] w-[100%] relative shadow-opacity-20 border-t-[1px solid #f4f4f4] flex flex-col">
+          <div class="flex flex-row h-[40vh] w-[100%]">
+              <div class="h-[100%] w-[22%]  flex flex-col pl-[8%] py-[2%]">
+                  <span class="py-[2%] font-semibold capitalize">shop</span>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline pt-[2%]">daily deals</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">App Only Deals</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">clearance sales</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">gift vouchers</a>
+                  <br>
+                  <span class="py-[2%] font-semibold capitalize">Takealot.group</span>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline pt-[2%] ">superbalist.com</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">mr d</a>
+              </div>
+              <div class="h-[100%] w-[20%]  flex flex-col pl-[2%] py-[2%]">
+                  <span class="py-[2%] font-semibold capitalize">help</span>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline pt-[2%]">Help Centre</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Contact Us</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Submit an Idea</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Suggest a Product</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Shipping & Delivery</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Takealot Pickup Points</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">returns</a>
+              </div>
+              <div class="h-[100%] w-[18%]  flex flex-col pl-[1%] py-[2%]">
+                  <span class="py-[2%] font-semibold capitalize">Account</span>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline pt-[2%]">My Account</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Track Order</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Returns</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Personal Details</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Invoices</a>
+              </div>
+              <div class="h-[100%] w-[20%]  flex flex-col pl-[1%] py-[2%]">
+                  <span class="py-[2%] font-semibold capitalize">Company</span>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline pt-[2%]">About Us</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Careers</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Sell on Takealot</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Deliver for Takealot</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Press & News</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Competitions</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Terms & Conditions</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Privacy Policy</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Human Rights Statement</a>
+                  <a href="#" class=" text-[14px] text-[#4d4d4f] bg-transparent hover:text-[#0b79bf] non-italic capitalize  hover:underline ">Speak Up Process</a>
+              </div>
+              <div class="h-[100%] w-[20%] flex flex-col pl-[1%] py-[2%] gap-2">
+                  <span class="py-[4%] font-semibold capitalize">Download Our Apps</span>
+                      <div class="bg-black w-[130px] rounded-[10px] flex flex-row h-[47px] ">
+                          <div class=" py-[2px]">
+                              <img src="./img/Apple Logo.svg" alt="" class="bg-black w-[42px] h-[42px] rounded-[10px] pl-[5px]">
+                          </div>
+                          <div class="flex flex-col py-[5%] place-items-center">
+                              <div class="text-[9px] text-white bg-transparent hover:text-[#0b79bf] non-italic ">Download on the</div> 
+                              <div class="text-[16px] text-white bg-transparent hover:text-[#0b79bf] non-italic capitalize ">app store</div>
+                          </div>
+                      </div>
+                      <div class="bg-black w-[130px] rounded-[10px] flex flex-row h-[47px] ">
+                          <div class=" py-[2px]">
+                              <img src="./img/Google Play.svg" alt="" class="bg-black w-[40px] h-[40px] rounded-[10px] pl-[5px]">
+                          </div>
+                          <div class="flex flex-col py-[5%] place-items-center pl-0">
+                              <div class="w-full text-[9px] text-white bg-transparent hover:text-[#0b79bf] non-italic uppercase">get it on</div> 
+                              <div class="text-[16px] text-white bg-transparent hover:text-[#0b79bf] non-italic capitalize ">Google play</div>
+                          </div>
+                      </div>
+                      <div class="bg-black w-[130px] rounded-[10px] flex flex-row h-[47px] ">
+                          <div class=" py-[2px]">
+                              <img src="https://brandlogos.net/wp-content/uploads/2022/08/huawei_appgallery-logo_brandlogos.net_gkwdr.png" alt="" class="bg-black w-[42px] h-[42px] rounded-[10px] pl-[5px]">
+                          </div>
+                          <div class="flex flex-col py-[5%] place-items-center">
+                              <div class="text-[9px] text-white bg-transparent hover:text-[#0b79bf] non-italic uppercase ">explore it on</div> 
+                              <div class="text-[16px] text-white bg-transparent hover:text-[#0b79bf] non-italic capitalize ">appGallery</div>
+                          </div>
+                      </div>
+                      <span class=" font-semibold capitalize">follow us</span>
+                      <div class="flex flex-row gap-[3%]">
+                          <div class="w-[30px] h-[30px] bg-[#0b79bf] rounded-[20px] py-[3%] px-[4%]">
+                              <img src="./img/facebookloggo.svg" alt="" class="w-[30px] h-[30px]">
+                          </div>
+                          <div class="w-[30px] h-[30px] bg-[#55acee] rounded-[20px] py-[3%] px-[4%]">
+                              <img src="./img/twiiter.svg" alt="" class="w-[20px] h-[20px]">
+                          </div>
+                          <div class="w-[30px] h-[30px] bg-[#2a5b83] rounded-[20px] py-[3%] px-[4%]">
+                              <img src="./img/instagramloggo.svg" alt="" class="w-[20px] h-[20px]">
+                          </div>
+                      </div>
+                     
+              </div>
+          </div>
+          <div class="w-[100%] h-[20vh] border-t-[#e3e3e3] border-t-[1px solid #e3e3e3]" >
+              <div class="w-[100%] px-[8%]">
+                  <div class=" h-[12.5vh] border-t border-[#e3e3e3] items-center py-[2%] flex-row w-full text-[#0b79bf] gap-2">
+                      <a href="#" class=" text-[14px] text-[#0b79bf] bg-transparent non-italic capitalize  hover:underline pt-[2%]">Baby & Toddler</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] bg-transparent non-italic capitalize  hover:underline ">Beauty</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] bg-transparent non-italic capitalize  hover:underline ">Books</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] bg-transparent non-italic capitalize  hover:underline ">Cameras</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] non-italic capitalize  hover:underline pt-[2%]">Camping & Outdoors</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] non-italic capitalize  hover:underline ">Cellphones & Wearables</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] non-italic capitalize  hover:underline ">Computers & Tablets</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] non-italic capitalize  hover:underline ">Fashion</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] bg-transparent non-italic capitalize  hover:underline pt-[2%]">Gaming</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] bg-transparent non-italic capitalize  hover:underline ">Garden, Pool & Patio</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] bg-transparent non-italic capitalize  hover:underline ">Health</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] bg-transparent non-italic capitalize  hover:underline "> Home & Kitchen</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] non-italic capitalize  hover:underline pt-[2%]">Luggage & Travel</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] non-italic capitalize  hover:underline ">Movies & Series</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] non-italic capitalize  hover:underline ">Music</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] non-italic capitalize  hover:underline ">Office & Stationery</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] bg-transparent non-italic capitalize  hover:underline pt-[2%]">Pets</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] bg-transparent non-italic capitalize  hover:underline ">Sport</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] bg-transparent non-italic capitalize  hover:underline ">TV, Audio & Video</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] bg-transparent non-italic capitalize  hover:underline ">Toys</a><span> / </span>
+                      <a href="#" class=" text-[14px] text-[#0b79bf] non-italic capitalize  hover:underline pt-[2%]">Vouchers</a><span> / </span>
+                  </div>
+              </div>
+              <div class="h-[12.5vh] w-full bg-[#0b79bf] px-[8%] items-center py-[2%] flex flex-row space-between ">
+                  <div class="w-[75%] flex flex-row gap-2 items-center">
+                      <img class="w-[62px] h-[19px]" src="./img/visa.svg" />
+                      <img class="w-[39px] h-[30px]" src="./img/creditcard.svg" />
+                      <img class="w-[55px] h-5" src="./img/american-express.svg" />
+                      <img class="w-[73px] h-5" src="./img/dinors-club.svg" />
+                      <img class="w-[76px] h-5" src="./img/payfast.svg" />
+                      <img class="w-[82px] h-[23px]" src="./img/ozow.svg" />
+                      <img class="w-[67px] h-[25px]" src="./img/ebucks.svg" />
+                      <img class="w-[76px] h-[15px]" src="./img/mobicred.svg" />
+                      <img class="w-[59px] h-[36.88px]" src="./img/discovery.svg" />
+                      <img class="w-[130px] h-[30px]" src="./img/payflex.svg" />
+                  </div>
+                  <div class="w-[25%] pl-[9.2%] items-end space-between">
+                      <div class="text-[#4d4d4f] text-[15px] font-normal text-transparent-500 font-sans ">© Takealot Online (Pty) Ltd.</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>
