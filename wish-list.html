@@ -18,14 +18,93 @@
         theme: {
           extend: {
             colors: {
-              background: "#f4f4f4",
+              background: '#f4f4f4',
+              primary: '#0B79BF',
+              darkGray: '#4D4D4F',
             },
           },
         },
-      };
+      }
     </script>
   </head>
   <body class="bg-background text-gray-800 overscroll-none">
+    <nav class="142px">
+      <div class="h-[60px]">
+        <div class="bg-white flex justify-between items-center container mx-auto">
+          <div class="py-3 flex items-center">
+            <a href="index.html"><img class="mr-8" height="37px" width="180px"
+              src="https://shopfront.takealot.com/744a5a17d59bf9602ce11d98a220f68e69f2696c/static/media/src/images/logo.svg-f6ccb489b85bbddf97d6.svg"
+              alt="" /></a>
+            <ul class="flex space-x-4">
+              <li><a href="help.html">Help Centre</a></li>
+              <div class="border-r"></div>
+              <li><a href="sell.html">Sell on Takealot</a></li>
+            </ul>
+          </div>
+          <ul class="flex space-x-4 items-center">
+            <li><a href="">Login</a></li>
+            <li><a href="">Register</a></li>
+            <li><a href="">Orders</a></li>
+            <div class="border-r"></div>
+            <div class="dropdown inline-block relative">
+              <a href="#" class="text-gray-700 py-2 inline-flex items-center">
+                <span class="mr-1">My Account</span>
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                </svg>
+              </a>
+              <ul class="dropdown-menu shadow absolute hidden text-gray-700 pt-1">
+                <li class="">
+                  <a class="rounded-t bg-white py-2 px-4 block whitespace-no-wrap" href="#">My Account</a>
+                </li>
+                <li class="">
+                  <a class="bg-white  py-2 px-4 block whitespace-no-wrap" href="#">Track Order</a>
+                </li>
+                <li class="">
+                  <a class="rounded-b bg-white  py-2 px-4 block whitespace-no-wrap" href="#">Returns</a>
+                </li>
+
+              </ul>
+            </div>
+            <div class="flex  items-center space-x-2">
+              <li><a href="wish-list.html"><i
+                    class="fa-solid fa-heart bg-red-400 p-2 rounded-full text-md text-white hover:bg-red-500"></i></a>
+              </li>
+              <li><a href="cart.html"><i
+                    class="fa-solid fa-cart-shopping bg-green-700 text-white text-md py-2 px-4 rounded-full"><span
+                      class="text-sm ml-2">0</span></i></a></li>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div class="bg-primary h-[50px] pt-2">
+        <div class="container mx-auto">
+          <div class="flex">
+            <div class="w-[200px] shadow">
+              <div class="h-[32px] bg-darkGray flex items-center px-2 text-white ">
+                <h4 class="flex items-center">Shop by Department
+                  <span class="ml-2">
+                    <svg class="fill-current h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                    </svg>
+                  </span>
+                </h4>
+              </div>
+            </div>
+            <div class="pl-4">
+              <div class="flex items-center">
+                <div>
+                  <input class="w-[1270px] h-[30px]" type="text" name="" id="">
+                </div>
+                <div>
+                  <i class="fa-solid fa-magnifying-glass bg-darkGray px-[50] text-white px-4 py-2"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
     <!--HEADER ------------------------------------------------------------------------------------------------------------------------------------>
     <div class="container mx-auto py-4">
       <div class="space-x-2 text-sm text-sky-700">
